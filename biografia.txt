@@ -14,7 +14,7 @@ EMPRESAS:
 
     AEROESPACIAL Y TELECOMUNICACIONES
         SpaceX - 2022 - 137.000 millones
-            Starlink - 2022 - 
+            Starlink - 2022 - 81.000 millones
     AUTOMOTRIZ Y ENERGIA/ ENERGIA RENOVABLE
         Tesla - 2003
             2016: SolarCity - 2006
