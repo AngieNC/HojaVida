@@ -16,10 +16,10 @@ EMPRESAS:
         SpaceX - 2022 - 137.000 millones
             Starlink - 2022 - 81.000 millones
     AUTOMOTRIZ Y ENERGIA/ ENERGIA RENOVABLE
-        Tesla - 2003
-            2016: SolarCity - 2006
+        Tesla - 2003 - 865.25 mil millones
+            2016: SolarCity - 2006 - 2.600 millones
     BIOTECNOLOGIA
-        Halcyon MOlecular - 2008
+        Halcyon Molecular - 2008 - Cerro sus puertas sigilosamente después de dar grandes aspiraciones a la secuenciacion del ADN tratando de reducir los costos contra Oxford Nanopore
     INFRAESTRUCTURA
         The Boring Company - 2016
     NEUROTECNOLOGIA
