@@ -21,17 +21,19 @@ EMPRESAS:
     BIOTECNOLOGIA
         Halcyon Molecular - 2008 - Cerro sus puertas sigilosamente después de dar grandes aspiraciones a la secuenciacion del ADN tratando de reducir los costos contra Oxford Nanopore
     INFRAESTRUCTURA
-        The Boring Company - 2016
+        The Boring Company - 2016 - 5.700 millones
     NEUROTECNOLOGIA
-        Neuralink - 2016
+        Neuralink - 2016 - 5.000 millones
     TELECOMUNICACIONES
-        2022: Twitter - 2006
+        2022: Twitter - 2006 - 20 mil millones
+            TECNOLOGIA
+                X Corp. - 2023 - 2 millones (mientras)
     TECNOLOGIA
-        xAI - 2023
+        xAI - 2023 - sin datos($)
 
 
-PREMIOS:
-
+PREMIOS Y RECONOCIMIENTOS:
+    
 
 
 FILOSOFIA:
