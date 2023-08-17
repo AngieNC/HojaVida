@@ -32,9 +32,21 @@ EMPRESAS:
         xAI - 2023 - sin datos($)
 
 
-PREMIOS Y RECONOCIMIENTOS:
+PREMIOS Y NOMINACIONES:
     
-    
+    PREMIOS: 
+
+    Global Green - 2006 - Diseño de un producto (Tesla Roadster)
+    Index Design Award - 2007 - Design to improve life (Tesla Roadster)
+    Inc Magazine - 2007 - Emprendedor del Año (Tesla, SpaceX)
+    American Institute of Aeronautics - 2008 - The most outstanding contribution in the field of space transportation (Falcon 1)
+    Sociedad Espacial Nacional - 2008 - Trofeo Von Braun
+
+
+    NOMINACIONES:
+
+    Revista R&D Magazine - 2007 - Innovador del Año (SpaceX, Tesla, SolarCity)
+    Revista Time - 2010 - Top 100 personas que influyen al mundo
 
 
 FILOSOFIA:
