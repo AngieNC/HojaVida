@@ -1,12 +1,14 @@
 
 BIOGRAFIA:
+(INICIO - TEXTO: Negro-Cursiva-Centrado-Debajo de la imagen)
+
 Elon Reeve Musk nació en Pretoria, Sudáfrica, el 28 de junio de 1971. Es el hermano mayor de los tres en su familia, tiene a su hermano Kimbal y su hermana Tosca, sus padres son Maye Haldeman siendo una modelo Canadiense y Errol Musk siendo un ingeniero y promotor inmobiliario sudafricano.
 
 Su interés por la lectura y la informática empezó desde edad muy temprana y a sus 10 años empezó adentrarse en la informática y a sus 12 de manera autonoma ya sabia programar computadoras y realizó su videojuego Blastar el cual lo vendió a la revista PC and Office Technology ganando 500 dólares
 
 
 PROYECTOS FUTUROS:
-
+(INICIO - Bloque A )
 
 
 
@@ -41,7 +43,7 @@ PREMIOS Y NOMINACIONES:
     Inc Magazine - 2007 - Emprendedor del Año (Tesla, SpaceX)
     American Institute of Aeronautics - 2008 - The most outstanding contribution in the field of space transportation (Falcon 1)
     Sociedad Espacial Nacional - 2008 - Trofeo Von Braun
-    ---------------------- 2011 - Heinlein (Avances en la Comercializacion del Espacio)
+    National Space Society(NSS) - 2011 - Heinlein (Avances en la Comercializacion del Espacio)
     Federacion Aeronautica Internacional - 2011 -FAI Gold Space Medal (primer cohete en alcanzar {orbita con fondos privados})
     National Wildlife Federation - 2008 - National Conservation Achievement Award (Tesla Motors, SolarCity)
 
