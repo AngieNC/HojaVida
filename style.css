@@ -1,0 +1,18 @@
+.contenedor {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagen {
+
+    width: 250px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.textos {
+
+    align-self: center;
+}
