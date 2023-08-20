@@ -13,6 +13,7 @@ PROYECTOS FUTUROS:
 
 
 EMPRESAS:
+(NAV 1)
 
     AEROESPACIAL Y TELECOMUNICACIONES
         SpaceX - 2022 - 137.000 millones
@@ -35,6 +36,7 @@ EMPRESAS:
 
 
 PREMIOS Y NOMINACIONES:
+(NAV 3)
     
     PREMIOS: 
 
@@ -58,10 +60,13 @@ PREMIOS Y NOMINACIONES:
     Business Insider - 2016 - 10 principales visionarios de negocios que crean valor para el mundo
 
 FILOSOFIA:
+(NAV 2)
+
 
 
 
 CONTROVERSIAS:
+(NAV 4)
 
 
 
