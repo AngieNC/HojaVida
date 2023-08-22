@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 header {
     font-family: 'Times New Roman';
     color: rgb(255, 255, 255);
@@ -82,7 +83,7 @@ header {
     top: 70px;
 }
 
-@media (min-width: 600px){
+@media (min-width: 900px){
     .checkbox, .fi-sr-bars-staggered, .fi-rr-home{
         display: none;
     }
@@ -101,26 +102,12 @@ header {
     }
 }
 
-.contenedor {
-
-    display: flex;
-    justify-content: center;
-}
-
-
-.imagen {
-
-    width: 250px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 60px;
-}
-
-.textos {
-
-    align-self: center;
-}
-
 .fondo{
-    position: absolute;
+    width: 10px;
+}
+
+
+.twitter-timeline{
+    float:right;
+    padding: 200px 200px 0 0;
 }
