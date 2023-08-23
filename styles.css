@@ -12,7 +12,7 @@ header {
 
 
 .navbar {
-    background-color: rgb(248, 147, 39);
+    background-color: rgb(111, 128, 213);
     height: 70px;
     padding: 10px 12px;
     position: relative;
@@ -98,13 +98,32 @@ header {
     .menu li a{
         height: 70px;
         padding: 25px 12px 6px;
-        background-color: rgb(248, 147, 39);
+        background-color: rgb(111, 128, 213);
     }
 }
 
-.fondo{
-    width: 10px;
+.seccion_principal{
+    position: relative;
+    display: inline-block;
 }
+
+.fondo{
+    display: block;
+    width: 1520px;
+    height: auto;
+
+}
+
+.elon{
+    position: absolute;
+    top: 157px;
+    right: 655px;
+
+    width: 200px;
+    height: 200px;
+}
+
+
 
 
 .twitter-timeline{
