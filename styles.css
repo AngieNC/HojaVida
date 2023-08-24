@@ -10,12 +10,13 @@ header{
     height: 520px;
     z-index: 2;
     background-image: url("elon.png");
-    background-size: contain;
+    background-size: contain; (ancho x alto)
     background-repeat: no-repeat;
     background-attachment: scroll;
     position: relative;
 
-    
+    /*background-clip: padding-box;*/
+    /*background-origin: padding-box; border-box;*/
 }
 
 
