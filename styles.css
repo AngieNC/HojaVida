@@ -7,10 +7,11 @@
 header{
     
     width: 100%;
+    top: 110px;
     height: 520px;
     z-index: 2;
     background-image: url("elon.png");
-    background-size: contain; (ancho x alto)
+    background-size: contain; 
     background-repeat: no-repeat;
     background-attachment: scroll;
     position: relative;
@@ -22,15 +23,20 @@ header{
 
 
 .navbar {
+    
     font-family: 'Consolas';
     color: rgb(255, 255, 255);
     background-color: rgb(18, 118, 164);
-    height: 70px;
+    height: 110px;
     padding: 10px 12px;
     position: relative;
     
 }
+.navbar img{
 
+    width: 80px;
+
+}
 
 .checkbox,
 .icons {
@@ -67,7 +73,7 @@ header{
 .menu {
     width: 200px;
     position: absolute;
-    top: -110px;
+    top: -1px;
     z-index: -1;
     right: 0px;
     /*display: none;*/
@@ -92,7 +98,7 @@ header{
 
 .checkbox:checked~.menu {
     /*display: block;*/
-    top: 70px;
+    top: 110px;
 }
 
 @media (min-width: 900px){
@@ -105,11 +111,11 @@ header{
         z-index: 1;
         width: unset;
         display: flex;
-        height: 70px;
+        height: 110px;
     }
     .menu li a{
-        height: 70px;
-        padding: 25px 25px 6px;
+        height: 110px;
+        padding: 45px 25px 6px;
         background-color: rgb(18, 118, 164);
     }
 }
@@ -122,6 +128,7 @@ header{
     align-items: center;
     justify-content: space-around;
     font-size: xxx-large;
+
 }
 
 .principal #elon{
