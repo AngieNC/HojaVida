@@ -4,22 +4,21 @@
     box-sizing: border-box;
 }
 
+
 header{
     
     width: 100%;
-    top: 110px;
     height: 520px;
     z-index: 2;
     background-image: url("elon.png");
-    background-size: contain; 
+    background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: scroll;
-    position: relative;
+    background-position: center;
 
     /*background-clip: padding-box;*/
     /*background-origin: padding-box; border-box;*/
 }
-
 
 
 .navbar {
@@ -119,6 +118,7 @@ header{
         background-color: rgb(18, 118, 164);
     }
 }
+
 
 .principal {
     display: flex;
