@@ -12,24 +12,16 @@ body{
 
 header{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-image: url("img/fondo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.icons{
-    color: black;
-    width: 90px;
-    padding: 5px 0 0 1450px;
-    pointer-events: none;
-    font-size: 24px;
-    /*padding-left: 1100px;*/
-}
 
 nav{
-    height: 100px;
+
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -37,8 +29,8 @@ nav{
 }
 
 .principio{
-    padding-top: 10px;
-    width: 90px;
+    padding-top: 30px;
+    width: 80px;
     margin-left: 20px;
 }
 
@@ -52,19 +44,19 @@ nav{
 .menu{
     position: fixed;
     width: 100%;
-    height: 0vh;
-    top: 100px;
-    background: rgb(36, 36, 140);
-    text-align: right;
-    padding-right: 60px;
-    transition: all .5s;
+    height: 0;
+    top: 120px;
+    background: rgba(0 0 0 / 0.7);
+    text-align: center;
+    transition: all .10s;
+
 }
 
 .menu li{
     display: none;
     line-height: 30px;
     margin: 50px 0;
-    transition: all .5s;
+    transition: all 5s;
 }
 
 .menu li a{
@@ -75,8 +67,8 @@ nav{
 }
 
 .menu li a.active, .menu li a:hover{
-    color: darkseagreen;
-    transition: 0s;
+    color: rgb(238, 200, 60);
+    transition: .3s;
 }
 
 
@@ -92,4 +84,79 @@ nav{
 #check:checked ~ .menu li{
 
     display: block;
+}
+.principal{
+    padding: 0 30px;
+    margin-top: 80px;
+    text-align: left;
+    color: white;
+}
+
+.principal h1{
+    margin-left: 10px;
+    font-size: 50px ;
+
+}
+
+.principal h2{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 900px){
+    .principio{
+        margin-left: 50px;
+
+    }
+    nav{
+        height: 100px;
+    }
+    .navbar{
+        display: none;
+    }
+
+    .menu{
+        position: relative;
+        height: 150px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .menu li{
+        display: inline-block;
+        line-height: 100px;
+        transition: none;
+        margin: 40px 20px;
+    }
+
+    .menu li a{
+        font-size: 14px;
+    }
+
+    .principal h1{
+        font-size: 70px;
+    }
+
+    .principal h2{
+        font-size: 25px;
+    }
+}
+
+.biografia h3{
+    text-align: left;
+}
+
+.biografia{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+
+.twitter-timeline{
+    float:right;
+    padding: 0 120px 0 120px;
 }
