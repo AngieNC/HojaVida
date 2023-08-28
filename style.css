@@ -103,7 +103,7 @@ nav{
     font-size: 16px;
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 800px){
     .principio{
         margin-left: 50px;
 
@@ -141,7 +141,7 @@ nav{
     }
 
     .principal h2{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
