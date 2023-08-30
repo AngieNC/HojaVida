@@ -32,7 +32,7 @@ nav{
 }
 
 .principio{
-    padding-top: 30px;
+    padding-top: 10px;
     width: 80px;
     margin-left: 20px;
 }
@@ -132,7 +132,7 @@ nav{
         display: inline-block;
         line-height: 100px;
         transition: none;
-        margin: 40px 20px;
+        margin: 30px 20px;
     }
 
     .menu li a{
