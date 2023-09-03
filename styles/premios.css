@@ -26,12 +26,12 @@ body{
 
 header{
     width: 100%;
-    height: 18vh;
+    height: 10vh;
 
 }
 
 nav{
-    z-index: 2;
+    z-index: 8;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -82,7 +82,7 @@ nav{
 }
 
 .menu li a.active, .menu li a:hover{
-    color: #a5c5d7;
+    color: var(--titulos_principales);
     transition: .3s;
 }
 
@@ -101,54 +101,131 @@ nav{
     display: block;
 }
 
-.carousel-indicators{
-    z-index: 1;
-}
-.carousel-inner{
-    z-index: -1;
-    margin-left: 23%;
-    width: 70%;
 
-}
 
-.carousel-item{
-    width: 80%;
-}
-
-.carousel-item h5{
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
-    color: rgb(0, 0, 0); 
-    font-size: 50px;
-
+main h1{
+    color: var(--titulos_principales);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--Titulos);
+    text-align: center;
+    margin: 0;
+    padding: 9% 2% 6% 2%;
+    z-index: 3;
 }
 
-.carousel-control-prev{
-    margin-left: 20%;
+main .premios{
+    margin: 15px 50px 0 50px;
+    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.701);
 }
 
-.carousel-control-next{
-    margin-right: 20%;
+main .nominaciones{
+    margin: 40px 50px 0 50px;
+    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.701);
 }
 
-
-/*.carousel-inner{
-    display: flex;
+main .premios h3{
+    padding-top: 3%;
+    color: #3b1c3bc9;
+    font-family: var(--subtitulos);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
 }
 
-.carousel-control-prev span{
-    padding-left: 20%;
-}
-.carousel-item, .carousel-item.active{
-    display:flex;
-    margin-right: 0;
-    flex: 0 0 calc(100%/3);
-    justify-content: center;
-
-    flex-direction: column;
+main .nominaciones h3{
+    padding-top: 3%;
+    color: #3b1c3bc9;
+    font-family: var(--subtitulos);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
 }
 
+main .premios ol{
+    text-align: end;
+    padding: 5%; 
+    margin: 0;
+    font-size: 1.3rem;
+}
 
-*/
+main .nominaciones ol{
+    text-align: end;
+    padding: 5%; 
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+main .premios ol .izquierda{
+    text-align: start;
+}
+
+main .nominaciones ol .izquierda{
+    text-align: start;
+}
+
+main .premios ol h4{
+    color: var(--bloque_titular);
+    font-size: 1.7rem;
+}
+
+main .nominaciones ol h4{
+    color: var(--bloque_titular);
+    font-size: 1.7rem;
+}
+
+main .premios ol p{
+    color: cadetblue;
+}
+main .nominaciones ol p{
+    color: cadetblue;
+}
+
+main #carouselExampleCaptions, #carouselExampleDark{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0 25px 30px 25px;
+}
+
+main #carouselExampleCaptions .carousel-inner .carousel-item h5{
+    color: rgb(255, 255, 255);
+    font-size: 2.8rem;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+main #carouselExampleDark .carousel-inner .carousel-item h5{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+main #carouselExampleDark{
+    margin-bottom: 6%;
+}
+
+footer{
+    background-color:var(--color_menu_footer);
+    width: 100%;
+    text-align: center;
+    font-family: var(--footer);
+    color: white;
+}
+footer h2{
+    font-size: 2rem;
+    padding: 30px 0 0 0;
+}
+footer .footer2{
+    font-size: 1rem;
+    padding: 15px 0px 0 0px;
+}
+footer .footer3{
+    font-size: 1rem;
+    padding: 0 0 40px 0;
+    margin-bottom: auto;
+}
+
 @media screen and (min-width: 900px){
     .principio{
         margin-left: 50px;
@@ -182,29 +259,134 @@ nav{
         font-size: 14px;
         box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.542);
     }
+    
+    
+    main h1{
+        color: var(--titulos_principales);
+        font-size: 3.5rem;
+        font-weight: bold;
+        font-family: var(--Titulos);
+        text-align: center;
+        margin: 0;
+        padding: 5% 2% 0 2%;
+    }
+    
+    main .premios{
+        margin: 60px 200px 0 200px;
+        box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.701);
+    }
 
-    .carousel-inner{
-        margin-left: 23%;
-        width: 70%;
-    
+    main .nominaciones{
+        margin: 60px 200px 0 200px;
+        box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.701);
+    }
+
+    main .premios h3{
+        padding-top: 3%;
+        color: #3b1c3bc9;
+        font-family: var(--subtitulos);
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
     }
     
-    .carousel-item{
-        width: 80%;
+    main .nominaciones h3{
+        padding-top: 3%;
+        color: #3b1c3bc9;
+        font-family: var(--subtitulos);
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
     }
     
-    .carousel-item h5{
-        -webkit-text-stroke: 2px rgb(255, 255, 255);
-        color: rgb(0, 0, 0); 
-        font-size: 50px;
-    
+    main .premios ol{
+        text-align: end;
+        padding: 5%; 
+        margin: 0;
+        font-size: 1.8rem;
     }
     
-    .carousel-control-prev{
-        margin-left: 20%;
+    main .nominaciones ol{
+        text-align: end;
+        padding: 5%; 
+        margin: 0;
+        font-size: 1.8rem;
     }
     
-    .carousel-control-next{
-        margin-right: 20%;
+    main .premios ol .izquierda{
+        text-align: start;
     }
+    
+    main .nominaciones ol .izquierda{
+        text-align: start;
+    }
+    
+    main .premios ol h4{
+        color: var(--bloque_titular);
+        font-size: 2.5rem;
+    }
+    
+    main .nominaciones ol h4{
+        color: var(--bloque_titular);
+        font-size: 2.5rem;
+    }
+    
+    main .premios ol p{
+        color: cadetblue;
+    }
+    main .nominaciones ol p{
+        color: cadetblue;
+    }
+    
+    main #carouselExampleCaptions, #carouselExampleDark{
+        margin-left: 15%;
+        margin-right: 15%;
+        padding: 0 50px 60px 50px;
+
+    }
+
+    main #carouselExampleCaptions{
+        padding: 0 30px 40px 30px;
+        margin-bottom: 6%;
+    }
+    
+    main #carouselExampleCaptions .carousel-inner .carousel-item h5{
+        color: rgb(255, 255, 255);
+        font-size: 2.8rem;
+        -webkit-text-stroke: 2px rgb(0, 0, 0);
+    }
+    
+    main #carouselExampleDark .carousel-inner .carousel-item h5{
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        -webkit-text-stroke: 2px rgb(0, 0, 0);
+    }
+    
+    main #carouselExampleDark{
+        margin-bottom: 6%;
+    }
+    
+    footer{
+        background-color:var(--color_menu_footer);
+        width: 100%;
+        text-align: center;
+        font-family: var(--footer);
+        color: white;
+    }
+    footer h2{
+        font-size: 2rem;
+        padding: 30px 0 0 0;
+    }
+    footer .footer2{
+        font-size: 1rem;
+        padding: 15px 0px 0 0px;
+    }
+    footer .footer3{
+        font-size: 1rem;
+        padding: 0 0 40px 0;
+        margin-bottom: auto;
+    }
+    
 }
