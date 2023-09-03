@@ -25,19 +25,20 @@ nav{
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: #000000a2;
+    background-color: #231123;
 }
 
 .principio{
     padding-top: 10px;
     width: 80px;
-    margin-left: 20px;
+    margin-left: 30px;
+    opacity: 0.9;
 }
 
 .navbar{
     font-size: 25px;
     color: white;
-    margin-right: 20px;
+    margin-right: 60px;
     cursor: pointer;
 }
 
@@ -67,7 +68,7 @@ nav{
 }
 
 .menu li a.active, .menu li a:hover{
-    color: rgb(238, 200, 60);
+    color: #a5c5d7;
     transition: .3s;
 }
 
@@ -118,6 +119,7 @@ nav{
 
     .menu li a{
         font-size: 14px;
+        box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.542);
     }
 
 }

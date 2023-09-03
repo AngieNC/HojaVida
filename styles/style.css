@@ -12,8 +12,11 @@ body{
 
 header{
     width: 100%;
-    height: 18vh;
-
+    height: 80vh;
+    background-image: url("/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -25,19 +28,20 @@ nav{
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: #000000a2;
+    background-color: #231123a5;
 }
 
 .principio{
     padding-top: 10px;
     width: 80px;
-    margin-left: 20px;
+    margin-left: 30px;
+    opacity: 0.9;
 }
 
 .navbar{
     font-size: 25px;
     color: white;
-    margin-right: 20px;
+    margin-right: 60px;
     cursor: pointer;
 }
 
@@ -67,7 +71,7 @@ nav{
 }
 
 .menu li a.active, .menu li a:hover{
-    color: rgb(238, 200, 60);
+    color: #a5c5d7;
     transition: .3s;
 }
 
@@ -85,7 +89,23 @@ nav{
 
     display: block;
 }
+.principal{
+    padding: 0 30px;
+    margin-top: 80px;
+    text-align: left;
+    color: white;
+}
 
+.principal h1{
+    margin-left: 10px;
+    font-size: 50px ;
+
+}
+
+.principal h2{
+    margin-left: 10px;
+    font-size: 16px;
+}
 
 @media screen and (min-width: 900px){
     .principio{
@@ -118,6 +138,30 @@ nav{
 
     .menu li a{
         font-size: 14px;
+        box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.542);
     }
 
+    .principal h1{
+        font-size: 70px;
+    }
+
+    .principal h2{
+        font-size: 20px;
+    }
+}
+
+.biografia h3{
+    text-align: left;
+}
+
+.biografia{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+
+.twitter-timeline{
+    float:right;
+    padding: 0 120px 0 120px;
 }
