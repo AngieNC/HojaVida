@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&family=Ovo&family=Raleway&display=swap');
+
+:root{
+    --Titulos: 'Montserrat', sans-serif;
+    --texto: 'Noto Sans', sans-serif;
+    --footer: 'Ovo', serif;
+    --subtitulos: 'Raleway', sans-serif;
+
+    --color_menu_footer: #231123;
+    --bloques: #F2F2F2;
+    --subloques: #D9D9D9;
+    --titulos_principales: #A5C5D7;
+    --bloque_titular: #52528Ca5;
+}
 *{
     padding: 0;
     margin: 0;
@@ -89,6 +103,7 @@ nav{
 
     display: block;
 }
+
 .principal{
     padding: 0 30px;
     margin-top: 80px;
@@ -107,7 +122,61 @@ nav{
     font-size: 16px;
 }
 
-@media screen and (min-width: 900px){
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.biografia{
+    padding: 0 15px 50px 15px;
+    text-align: center;
+    background: var(--subloques) ;
+    font-family: var(--texto);
+    font-size: 2rem;
+}
+
+.twitter h3{
+    font-family: var(--Titulos);
+    font-size: 3rem;
+    color: var(--bloque_titular);
+    padding: 50px;
+}
+
+.twitter-timeline{
+    padding: 100px 120px 100px 120px;
+    margin: 20px;
+    background-color: rgb(107, 189, 178);
+    border-radius: 50px
+}
+
+
+footer{
+    margin-top: 5%;
+    background-color:var(--color_menu_footer);
+    width: 100%;
+    text-align: center;
+    font-family: var(--footer);
+    color: white;
+}
+footer h2{
+    font-size: 2rem;
+    padding: 30px 0 0 0;
+}
+footer .footer2{
+    font-size: 1rem;
+    padding: 15px 0px 0 0px;
+}
+footer .footer3{
+    font-size: 1rem;
+    padding: 0 0 40px 0;
+    margin-bottom: auto;
+}
+
+
+@media screen and (min-width: 1560px){
     .principio{
         margin-left: 50px;
 
@@ -148,20 +217,58 @@ nav{
     .principal h2{
         font-size: 20px;
     }
+
+    .todo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .biografia{
+        padding: 0 15px 50px 15px;
+        text-align: center;
+        background: var(--subloques) ;
+        font-family: var(--texto);
+        font-size: 2rem;
+    }
+    
+    .twitter h3{
+        font-family: var(--Titulos);
+        font-size: 3rem;
+        color: var(--bloque_titular);
+        padding: 50px;
+    }
+    
+    .twitter-timeline{
+        padding: 100px 120px 100px 120px;
+        margin: 20px;
+        background-color: rgb(107, 189, 178);
+        border-radius: 50px
+    }
+    
+    
+    footer{
+        margin-top: 5%;
+        background-color:var(--color_menu_footer);
+        width: 100%;
+        text-align: center;
+        font-family: var(--footer);
+        color: white;
+    }
+    footer h2{
+        font-size: 2rem;
+        padding: 30px 0 0 0;
+    }
+    footer .footer2{
+        font-size: 1rem;
+        padding: 15px 0px 0 0px;
+    }
+    footer .footer3{
+        font-size: 1rem;
+        padding: 0 0 40px 0;
+        margin-bottom: auto;
+    }
+    
 }
 
-.biografia h3{
-    text-align: left;
-}
-
-.biografia{
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-}
-
-
-.twitter-timeline{
-    float:right;
-    padding: 0 120px 0 120px;
-}
