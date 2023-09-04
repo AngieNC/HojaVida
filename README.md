@@ -8,6 +8,11 @@ Decidí interesarme en él por los grandes proyectos que he visto y que se han r
 
 Crear una página web en el que se evidencie la información del magnate y se pueda ser de gran ayuda a los demás con su accesibilidad.
 
+### Tecnologias
+
+Bootstrap
+HTML
+CSS
 
 ## Diseños
 ![Menu](img/1.png)
