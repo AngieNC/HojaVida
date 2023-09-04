@@ -176,7 +176,7 @@ footer .footer3{
 }
 
 
-@media screen and (min-width: 1560px){
+@media screen and (min-width: 900px){
     .principio{
         margin-left: 50px;
 
@@ -230,7 +230,7 @@ footer .footer3{
         text-align: center;
         background: var(--subloques) ;
         font-family: var(--texto);
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .twitter h3{
