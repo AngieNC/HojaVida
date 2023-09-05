@@ -15,8 +15,8 @@
 *{
     padding: 0;
     margin: 0;
-    text-decoration: none;
     list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
@@ -46,8 +46,8 @@ nav{
 }
 
 .principio{
-    padding-top: 10px;
-    width: 80px;
+    padding: 4px 4px;
+    width: 70px;
     margin-left: 30px;
     opacity: 0.9;
 }
@@ -75,6 +75,7 @@ nav{
     line-height: 30px;
     margin: 50px 0;
     transition: all 5s;
+    text-shadow: 5px 5px 5px rgba(128, 128, 128, 0.699);
 }
 
 .menu li a{
@@ -106,20 +107,20 @@ nav{
 
 .principal{
     padding: 0 30px;
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: left;
     color: white;
 }
 
 .principal h1{
     margin-left: 10px;
-    font-size: 50px ;
+    font-size: 2.8rem ;
 
 }
 
 .principal h2{
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 0.9rem;
 }
 
 .todo{
@@ -135,21 +136,23 @@ nav{
     text-align: center;
     background: var(--subloques) ;
     font-family: var(--texto);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-
+.biografia mark{
+    background: var(--titulos_principales);
+}
 .twitter h3{
     font-family: var(--Titulos);
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--bloque_titular);
     padding: 50px;
 }
 
-.twitter-timeline{
-    padding: 100px 120px 100px 120px;
-    margin: 20px;
+.timeline{
+    padding: 5%;
+    margin: 0;
     background-color: rgb(107, 189, 178);
-    border-radius: 50px
+    border-radius: 30px;
 }
 
 
@@ -178,6 +181,7 @@ footer .footer3{
 
 @media screen and (min-width: 900px){
     .principio{
+        width: 90px;
         margin-left: 50px;
 
     }
@@ -203,11 +207,11 @@ footer .footer3{
         line-height: 100px;
         transition: none;
         margin: 30px 20px;
+        text-shadow: 5px 5px 5px rgba(128, 128, 128, 0.699);
     }
 
     .menu li a{
         font-size: 14px;
-        box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.542);
     }
 
     .principal h1{
@@ -226,25 +230,30 @@ footer .footer3{
     }
     
     .biografia{
+        width: 700px;
         padding: 0 15px 50px 15px;
         text-align: center;
         background: var(--subloques) ;
         font-family: var(--texto);
-        font-size: 1.8rem;
+        font-size: 1.3rem;
+        margin: 10px;
+        border-radius: 10px;
     }
-    
+    .biografia mark{
+        background: var(--titulos_principales);
+    }
     .twitter h3{
         font-family: var(--Titulos);
-        font-size: 3rem;
+        font-size: 2rem;
         color: var(--bloque_titular);
         padding: 50px;
     }
     
-    .twitter-timeline{
-        padding: 100px 120px 100px 120px;
-        margin: 20px;
+    .timeline{
+        padding: 5%;
+
         background-color: rgb(107, 189, 178);
-        border-radius: 50px
+        border-radius: 30px;
     }
     
     

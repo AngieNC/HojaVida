@@ -40,8 +40,8 @@ nav{
 }
 
 .principio{
-    padding-top: 10px;
-    width: 80px;
+    padding: 5px 5px;
+    width: 70px;
     margin-left: 30px;
     opacity: 0.9;
 }
@@ -69,6 +69,7 @@ nav{
     line-height: 30px;
     margin: 50px 0;
     transition: all 5s;
+    text-shadow: 5px 5px 5px rgba(128, 128, 128, 0.699);
 }
 
 .menu li a{
@@ -103,7 +104,7 @@ nav{
 }
 .todo h2{
     color: var(--titulos_principales);
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-weight: bolder;
     font-family: var(--Titulos);
     text-align: center;
@@ -515,6 +516,16 @@ footer .footer3{
         font-size: 14px;
     }
 
+    .todo h2{
+        color: var(--titulos_principales);
+        font-size: 3rem;
+        font-weight: bolder;
+        font-family: var(--Titulos);
+        text-align: center;
+        margin: 0;
+        padding: 9% 2% 6% 2%;
+    }
+
     .todo .primero h4{
         font-family: var(--subtitulos);
         font-size: 2rem;
@@ -571,6 +582,7 @@ footer .footer3{
         font-family: var(--texto);
         font-size: 1.5rem;
         padding-bottom: 25px;
+        text-align: end;
     
     }
     .todo .primero ul .starlink img{
@@ -578,7 +590,7 @@ footer .footer3{
         box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.701);
     }
     .todo .primero ul .starlink .imagen2{
-        text-align: end;
+        text-align: start;
         
     }
     
@@ -641,6 +653,7 @@ footer .footer3{
         font-family: var(--texto);
         font-size: 1.5rem;
         padding-bottom: 25px;
+        text-align: end;
     
     }
     .todo .segundo ul .tesla img{
@@ -710,7 +723,7 @@ footer .footer3{
         font-family: var(--texto);
         font-size: 1.5rem;
         padding-bottom: 25px;
-    
+        text-align: end
     }
     .todo .tercero ul .bio img{
         width: 70%;
@@ -786,7 +799,7 @@ footer .footer3{
         font-family: var(--texto);
         font-size: 1.5rem;
         padding-bottom: 25px;
-    
+        text-align: end;
     }
     .todo .quinto ul .neuro img{
         width: 300px;
@@ -856,7 +869,7 @@ footer .footer3{
         font-family: var(--texto);
         font-size: 1.5rem;
         padding-bottom: 25px;
-    
+        text-align: end;
     }
     .todo .sexto ul .xai img{
         width: 50%;
@@ -864,7 +877,7 @@ footer .footer3{
         box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.701);
     }
     .todo .sexto ul .xai .imagen10{
-        text-align: end;
+        text-align: center;
     }
 
     footer{
